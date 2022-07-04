@@ -2,12 +2,12 @@
   "name": "X00P2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "privete": true,
   "scripts": {
-    "build": "./node_modules/.bin/webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
     "serve": "./node_modules/.bin/webpack serve"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -17,6 +17,7 @@
     "webpack-dev-server": "^4.9.2"
   },
   "dependencies": {
-    "jquery": "^3.6.0"
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21"
   }
 }
